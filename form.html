@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>
+        <h1>F.C.C. Survey Form</h1>
+    </title>
+</head>
+
+<body>
+    <div class='container'>
+
+        <h1 id='title'>F.C.C. Survey Form</h1>
+        <div>
+            <h2>
+                <p id='description'>Thank you for filling out my survey,<br> it helps with stuff!</p>
+            </h2>
+        </div>
+        <div>
+            <form id='survey-form'>
+                <div><label id='name-label'>Name:<br>
+      <input required type='text' id='name' placeholder='Enter Your Name'></input>
+      </label></div>
+                <div>
+                    <label id='email-label'>Email:<br>
+      <input required type='email' id='email' placeholder='Enter Your Email'></input></label></div>
+                <div>
+                    <label id='number-label'>Age (Optional):<br>
+      <input required type='number' id='number' placeholder='Age' max='130' min='18'>
+      </input></label></div>
+                <div id='which-label'>
+                    <label>Which describes you best:<br>
+      <select id='dropdown'>
+        <option>--select an option--</option>
+        <option>Silly</option>
+        <option>Adventurous</option>
+        <option>Observer</option>
+        </label></div>
+                </select>
+                <div>Would you recommend my services:</div>
+                <div id='radio-left'>
+                    <div><label><input type='radio' value='html' name='radio1' id='select1'>Definitely</input></label></div>
+                    <div><label>
+      <input type='radio' value='html' name='radio1' id='select1'>Maybe</input></label></div>
+                    <div><label>
+      <input type='radio' value='html' name='radio1' id='select1'>Not Sure</input>
+      </label></div>
+                </div>
+                <div id='which-label'>Which place suits you best:</div>
+                <div><select id='dropdown'>
+ <option>--select an option--</option>
+        <option>Mountains</option>
+        <option>Tropical</option>
+        <option>Desert</option>
+        <option>Plains</option>
+        <option>Ocean/River/Lakes</option>
+        </select>
+                </div>
+                <div>What would you like to work on:
+                    <div id='checkbox-left'>
+                        <div><label>
+        <input type='checkbox' value='mental' id='select1'>Mental Health</input></label></div>
+                        <div><label>
+        <input type='checkbox' value='physical' id='select1'>Physical Health</input></label></div>
+                        <div><label>
+        <input type='checkbox' value='finances' id='select1'>Finances</input></label></div>
+                        <div><label>
+        <input type='checkbox' value='goals' id='select1'>Commiting to Goals</input></label></div>
+                    </div>
+                </div>
+                <div id='bio'>
+                    <p>Anything you would like to share:</p>
+                    <textarea placeholder='Questions, Comments or Concerns...' id='textarea'></textarea>
+                </div>
+                <div class='btn'>
+                    <input type='submit' id='submit'></input>
+                </div>
+        </div>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
